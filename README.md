@@ -2,7 +2,7 @@
 
 A Deep Learning project using Convolutional Neural Networks (CNN) to classify natural scenes into six categories:
 
-🏢 Buildings | 🌳 Forest | 🧊 Glacier | ⛰️ Mountain | 🌊 Sea | 🛣️ Street
+🏢 Buildings | 🌳 Forest | 🧊 Glacier | ⛰️ Mountain | 🌊 Sea | 🚣️ Street
 
 ---
 
@@ -50,63 +50,67 @@ Download it from Kaggle:
 
 ## 🚀 How to Run the Project Locally
 
-1. Clone the repository
-bash
-git clone https://github.com/YourUsername/Intel-Image-Classification.git
-cd Intel-Image-Classification
-2. Install required packages
-bash
-Copy
-Edit
-pip install -r requirements.txt
-3. To Train the Model (Optional)
-bash
-Copy
-Edit
-python train_model.py
-(Skip if you want to use the already trained .h5 model.)
+1. **Clone the repository**
+    ```bash
+    git clone https://github.com/YourUsername/Intel-Image-Classification.git
+    cd Intel-Image-Classification
+    ```
 
-4. To Predict an Image
-bash
-Copy
-Edit
-python classify_image.py
-Enter the image path when prompted!
+2. **Install required packages**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-🎯 Project Structure
-bash
-Copy
-Edit
+3. **To Train the Model (Optional)**
+    ```bash
+    python train_model.py
+    ```
+   (Skip if you want to use the already trained `.h5` model.)
+
+4. **To Predict an Image**
+    ```bash
+    python classify_image.py
+    ```
+    Enter the image path when prompted!
+
+---
+
+## 🌟 Project Structure
+```
 Intel-Image-Classification/
 ├── train_model.py                  # Model training script
 ├── classify_image.py                # Image prediction script
 ├── intel_image_classification_model.h5  # Trained CNN model
 ├── requirements.txt                 # Required libraries
 └── README.md                        # Project overview
-📦 Tech Stack Used
-Python 3.10+
+```
 
-TensorFlow / Keras
+---
 
-NumPy
+## 📦 Tech Stack Used
+- Python 3.10+
+- TensorFlow / Keras
+- NumPy
+- Pillow
 
-Pillow
+---
 
-✨ Future Enhancements
-✅ Implement Transfer Learning with MobileNetV2
+## ✨ Future Enhancements
+- ✅ Implement Transfer Learning with MobileNetV2
+- ✅ Deploy model as a web app (Streamlit / Flask)
+- ✅ Hyperparameter tuning for improved accuracy
+- ✅ Model Explainability (GradCAM visualization)
 
-✅ Deploy model as a web app (Streamlit / Flask)
+---
 
-✅ Hyperparameter tuning for improved accuracy
+## 💡 Key Learnings
+- How to build a CNN from scratch.
+- How to handle image data in deep learning.
+- How to save and reuse trained models for predictions.
 
-✅ Model Explainability (GradCAM visualization)
+---
 
-💡 Key Learnings
-How to build a CNN from scratch.
+## 👨‍💻 Author
+Made with ❤️ by **Nishnat**
 
-How to handle image data in deep learning.
-
-How to save and reuse trained models for predictions.
-
-👨‍💻 Author
-Made with ❤️ by Nishnat
+---
